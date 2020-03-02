@@ -1,28 +1,54 @@
 body { 
-    background-image: linear-gradient(90deg,#0078b9,#80379b);
+    background-image: linear-gradient(90deg, #166DB4, #7B3A9C);
+    font-family: "PT Sans", sans-serif;
     background-attachment: fixed;
-}
-
-.title {
-    font-size: 50px;
+    color: white;
     text-align: center;
-
+    font-size: 13px;
 }
 
-.by {
-  
-  position: relative;
-  left: 500px;
-  font-size: 20px
-}
-
-.welcome {
-    font-size: 20px;
-    text-align: center;
+.logo {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .big-box {
-    
+    background: rgb(255,255,255,0.10);
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.welcome {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.small-box {
+    background: rgb(255,255,255,0.15);
+    margin-left: auto;
+    margin-right: auto;
     width: 70px;
-    height: 50px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+.sign-in {
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.instructions {
+    padding-top: 20px;
+}
+
+.forgot-password {
+    margin-top: -10px;
 }
